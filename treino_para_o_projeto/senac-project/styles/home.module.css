@@ -1,0 +1,50 @@
+
+.navBar {
+    background: #272727;
+    width: 100vw;
+    height: 10rem;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.btnLogout {
+    background-color: rgb(209, 30, 30);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 05px;
+    border: 0.2rem solid rgb(255, 255, 255);
+    border-radius: 10px;
+    color: white;
+    float: right;
+    margin-right: 2%;
+}
+
+.btnLogout:hover {
+    background-color: orange;
+    color: black;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.479);
+    width: 80vw;
+    height: 90vh;
+    margin-left: 10%;
+    padding: 2%;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.card {
+    width: 280px;
+    height: 80%;
+    background-color: rgba(117, 25, 25, 0);
+    border: white 0.1rem solid;
+    background-image: url(../public/duro_matar.jpg);
+    background-size: cover;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
